@@ -1,5 +1,7 @@
 # Boratify Chrome Extension
 
+![Borat](/borat.jpg)
+
 ## Description
 
 Boratify is a fun and quirky Chrome extension that replaces images on web pages with random pictures of Borat, the iconic character portrayed by Sacha Baron Cohen. This extension adds a humorous twist to your web browsing experience by transforming ordinary websites into Borat-filled adventures.
