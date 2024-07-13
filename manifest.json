@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Boratify",
+    "version": "1.0",
+    "description": "Replaces images on websites, except Google",
+    "permissions": [
+      "activeTab"
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "exclude_matches": ["*://*.google.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
